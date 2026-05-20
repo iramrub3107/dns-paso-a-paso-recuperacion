@@ -11,4 +11,4 @@ $TTL    86400
 ;
 @   IN  NS          debian.izan.test.
 debian.
-.test.   IN  A      192.168.10.1
+.test.   IN  A      192.168.67.10
