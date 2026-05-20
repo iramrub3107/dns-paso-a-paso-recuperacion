@@ -1,5 +1,5 @@
 acl confiables {
-	192.168.10.1/24;
+	192.168.67.1/24;
 };
 
 options {
@@ -10,7 +10,7 @@ options {
 	// };
 
 	allow-transfer { none; };
-    listen-on port 53 { 192.168.10.1; };
+    listen-on port 53 { 192.168.67.10; };
     recursion yes;
     allow-recursion { confiables; };
 

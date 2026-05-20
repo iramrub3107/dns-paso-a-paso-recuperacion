@@ -11,7 +11,7 @@ zone "izan.test" {
     file "/var/lib/bind/izan.test.dns";
 };
 
-zone "10.168.192.in-addr.arpa" {
+zone "67.168.192.in-addr.arpa" {
     type master;
     file "/var/lib/bind/izan.test.rev";
 };
